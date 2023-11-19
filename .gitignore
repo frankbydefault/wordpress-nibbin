@@ -1,0 +1,29 @@
+# Ignore development-related files
+node_modules/
+vendor/
+Gruntfile.js
+gulpfile.js
+package.json
+package-lock.json
+
+# Ignore environment configuration
+wp-config.php
+
+# Exclude cache and upload directories
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/uploads/
+
+# Exclude backup directories
+wp-content/backup-db/
+wp-content/backups/
+
+# Exclude logs and database dumps
+*.log
+*.sql
+*.bak
+
+# Exclude OS or editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
